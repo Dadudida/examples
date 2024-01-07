@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      '@changesets/cli': ^2.26.1
-      '@types/node': ^18.16.16
+      '@changesets/cli': ^2.27.1
+      '@types/node': ^18.19.4
       prettier: ^2.8.8
-      turbo: ^1.10.1
+      turbo: ^1.11.3
     devDependencies:
       '@changesets/cli': 2.27.1
       '@types/node': 18.19.4
@@ -20,16 +20,16 @@ importers:
       '@acme/pages': workspace:*
       '@acme/utils': workspace:*
       '@types/react': latest
-      '@vercel/examples-ui': ^1.0.4
-      autoprefixer: ^10.4.12
-      eslint: ^8.11.0
+      '@vercel/examples-ui': ^1.0.5
+      autoprefixer: ^10.4.16
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
       next: latest
       postcss: ^8.4.33
       react: latest
       react-dom: latest
-      tailwindcss: ^3.2.1
-      typescript: 5.1.3
+      tailwindcss: ^3.4.1
+      typescript: 5.3.3
     dependencies:
       '@acme/design-system': link:../../packages/acme-design-system
       '@acme/pages': link:../../packages/acme-pages
@@ -39,13 +39,13 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/react': 18.2.46
+      '@types/react': 18.2.47
       autoprefixer: 10.4.16_postcss@8.4.33
       eslint: 8.56.0
       eslint-config-acme: link:../../packages/eslint-config-acme
       postcss: 8.4.33
-      tailwindcss: 3.4.0
-      typescript: 5.1.3
+      tailwindcss: 3.4.1
+      typescript: 5.3.3
 
   apps/main:
     specifiers:
@@ -53,16 +53,16 @@ importers:
       '@acme/pages': workspace:*
       '@acme/utils': workspace:*
       '@types/react': latest
-      '@vercel/examples-ui': ^1.0.4
-      autoprefixer: ^10.4.12
-      eslint: ^8.11.0
+      '@vercel/examples-ui': ^1.0.5
+      autoprefixer: ^10.4.16
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
       next: latest
       postcss: ^8.4.33
       react: latest
       react-dom: latest
-      tailwindcss: ^3.2.1
-      typescript: 5.1.3
+      tailwindcss: ^3.4.1
+      typescript: 5.3.3
     dependencies:
       '@acme/design-system': link:../../packages/acme-design-system
       '@acme/pages': link:../../packages/acme-pages
@@ -72,63 +72,63 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
-      '@types/react': 18.2.46
+      '@types/react': 18.2.47
       autoprefixer: 10.4.16_postcss@8.4.33
       eslint: 8.56.0
       eslint-config-acme: link:../../packages/eslint-config-acme
       postcss: 8.4.33
-      tailwindcss: 3.4.0
-      typescript: 5.1.3
+      tailwindcss: 3.4.1
+      typescript: 5.3.3
 
   packages/acme-design-system:
     specifiers:
-      '@storybook/react': ^7.0.6
-      '@swc/cli': ^0.1.62
-      '@swc/core': ^1.3.53
-      '@swc/helpers': ^0.5.1
-      '@types/react': ^18.0.37
+      '@storybook/react': ^7.6.7
+      '@swc/cli': ^0.1.63
+      '@swc/core': ^1.3.102
+      '@swc/helpers': ^0.5.3
+      '@types/react': ^18.2.46
       chokidar: ^3.5.3
       clsx: ^1.2.1
-      eslint: ^8.38.0
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
-      typescript: 5.0.4
+      typescript: 5.3.3
     dependencies:
-      '@swc/helpers': 0.5.2
+      '@swc/helpers': 0.5.3
       clsx: 1.2.1
     devDependencies:
-      '@storybook/react': 7.6.7_typescript@5.0.4
+      '@storybook/react': 7.6.7_typescript@5.3.3
       '@swc/cli': 0.1.63_goxlsxvwgnk3d3xyk72a2crpei
-      '@swc/core': 1.3.102_@swc+helpers@0.5.2
-      '@types/react': 18.2.46
+      '@swc/core': 1.3.102_@swc+helpers@0.5.3
+      '@types/react': 18.2.47
       chokidar: 3.5.3
       eslint: 8.56.0
       eslint-config-acme: link:../eslint-config-acme
-      typescript: 5.0.4
+      typescript: 5.3.3
 
   packages/acme-pages:
     specifiers:
       '@acme/design-system': workspace:*
       '@acme/utils': workspace:*
-      '@swc/cli': ^0.1.62
-      '@swc/core': ^1.3.53
-      '@swc/helpers': ^0.5.1
-      '@types/react': ^18.0.37
+      '@swc/cli': ^0.1.63
+      '@swc/core': ^1.3.102
+      '@swc/helpers': ^0.5.3
+      '@types/react': ^18.2.46
       '@vercel/examples-ui': ^1.0.5
       chokidar: ^3.5.3
       clsx: ^1.2.1
-      eslint: ^8.38.0
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
-      typescript: ^5.0.4
+      typescript: ^5.3.3
     dependencies:
       '@acme/design-system': link:../acme-design-system
       '@acme/utils': link:../acme-utils
-      '@swc/helpers': 0.5.2
+      '@swc/helpers': 0.5.3
       '@vercel/examples-ui': 1.0.5
       clsx: 1.2.1
     devDependencies:
       '@swc/cli': 0.1.63_goxlsxvwgnk3d3xyk72a2crpei
-      '@swc/core': 1.3.102_@swc+helpers@0.5.2
-      '@types/react': 18.2.46
+      '@swc/core': 1.3.102_@swc+helpers@0.5.3
+      '@types/react': 18.2.47
       chokidar: 3.5.3
       eslint: 8.56.0
       eslint-config-acme: link:../eslint-config-acme
@@ -138,24 +138,24 @@ importers:
     specifiers:
       '@acme/design-system': workspace:*
       '@acme/pages': workspace:*
-      '@storybook/addon-docs': ^7.0.6
-      '@storybook/addon-essentials': ^7.0.6
-      '@storybook/addon-links': ^7.0.6
-      '@storybook/addon-styling': ^1.0.1
-      '@storybook/react': ^7.0.6
-      '@storybook/react-vite': ^7.0.6
+      '@storybook/addon-docs': ^7.6.7
+      '@storybook/addon-essentials': ^7.6.7
+      '@storybook/addon-links': ^7.6.7
+      '@storybook/addon-styling': ^1.3.7
+      '@storybook/react': ^7.6.7
+      '@storybook/react-vite': ^7.6.7
       '@vercel/examples-ui': ^1.0.5
-      autoprefixer: ^10.4.14
-      eslint: ^8.38.0
+      autoprefixer: ^10.4.16
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
-      eslint-plugin-storybook: ^0.6.11
+      eslint-plugin-storybook: ^0.6.15
       postcss: ^8.4.33
       react: ^18.2.0
       react-dom: ^18.2.0
-      serve: ^14.2.0
-      storybook: ^7.0.6
-      tailwindcss: ^3.3.1
-      typescript: ^5.0.4
+      serve: ^14.2.1
+      storybook: ^7.6.7
+      tailwindcss: ^3.4.1
+      typescript: ^5.3.3
       vite: ^5.0.11
     dependencies:
       '@acme/design-system': link:../acme-design-system
@@ -177,16 +177,16 @@ importers:
       postcss: 8.4.33
       serve: 14.2.1
       storybook: 7.6.7
-      tailwindcss: 3.4.0
+      tailwindcss: 3.4.1
       typescript: 5.3.3
       vite: 5.0.11
 
   packages/acme-utils:
     specifiers:
-      eslint: ^8.16.0
+      eslint: ^8.56.0
       eslint-config-acme: workspace:*
-      tsup: ^5.12.8
-      typescript: ^4.5.5
+      tsup: ^5.12.9
+      typescript: ^4.9.5
     devDependencies:
       eslint: 8.56.0
       eslint-config-acme: link:../eslint-config-acme
@@ -195,14 +195,14 @@ importers:
 
   packages/eslint-config-acme:
     specifiers:
-      eslint: ^8.26.0
+      eslint: ^8.56.0
       eslint-config-next: canary
-      eslint-config-prettier: ^8.5.0
+      eslint-config-prettier: ^8.10.0
       eslint-config-turbo: latest
-      typescript: ^4.8.4
+      typescript: ^4.9.5
     dependencies:
       eslint: 8.56.0
-      eslint-config-next: 14.0.5-canary.40_7sjm5uif3lrlodkmlzqsvrpzla
+      eslint-config-next: 14.0.5-canary.42_7sjm5uif3lrlodkmlzqsvrpzla
       eslint-config-prettier: 8.10.0_eslint@8.56.0
       eslint-config-turbo: 1.11.3_eslint@8.56.0
     devDependencies:
@@ -2363,7 +2363,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.10
-      '@types/react': 18.2.46
+      '@types/react': 18.2.47
       react: 18.2.0
     dev: true
 
@@ -2393,8 +2393,8 @@ packages:
     resolution: {integrity: sha512-irQnbMLbUNQpP1wcE5NstJtbuA/69kRfzBrpAD7Gsn8zm/CY6YQYc3HQBz8QPxwISG26tIm5afvvVbu508oBeQ==}
     dev: false
 
-  /@next/eslint-plugin-next/14.0.5-canary.40:
-    resolution: {integrity: sha512-UsTVdkDxSiN9z5gyvOmGmy/qDTT+GVsQpsm2C5I81sfgyrJwjQrn3hR+Y7wcXujRdXIwR2mf6Un48htVdbfTSw==}
+  /@next/eslint-plugin-next/14.0.5-canary.42:
+    resolution: {integrity: sha512-3eLPl08Wk6Bvpd0XDwUgo+VMJnV3FH7CEF99leLcQhTww3jPFtFmw2fCy4Fkyy+nQBfSdCjVbdzjGXjGSsgEcg==}
     dependencies:
       glob: 7.1.7
     dev: false
@@ -3873,7 +3873,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/react/7.6.7_typescript@5.0.4:
+  /@storybook/react/7.6.7_typescript@5.3.3:
     resolution: {integrity: sha512-uT9IBPDM1SQg6FglWqb7IemOJ1Z8kYB5rehIDEDToi0u5INihSY8rHd003TxG4Wx4REp6J+rfbDJO2aVui/gxA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -3904,7 +3904,7 @@ packages:
       react-element-to-jsx-string: 15.0.0
       ts-dedent: 2.2.0
       type-fest: 2.19.0
-      typescript: 5.0.4
+      typescript: 5.3.3
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - encoding
@@ -3970,7 +3970,7 @@ packages:
         optional: true
     dependencies:
       '@mole-inc/bin-wrapper': 8.0.1
-      '@swc/core': 1.3.102_@swc+helpers@0.5.2
+      '@swc/core': 1.3.102_@swc+helpers@0.5.3
       chokidar: 3.5.3
       commander: 7.2.0
       fast-glob: 3.3.2
@@ -4069,7 +4069,7 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core/1.3.102_@swc+helpers@0.5.2:
+  /@swc/core/1.3.102_@swc+helpers@0.5.3:
     resolution: {integrity: sha512-OAjNLY/f6QWKSDzaM3bk31A+OYHu6cPa9P/rFIx8X5d24tHXUpRiiq6/PYI6SQRjUPlB72GjsjoEU8F+ALadHg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -4080,7 +4080,7 @@ packages:
         optional: true
     dependencies:
       '@swc/counter': 0.1.2
-      '@swc/helpers': 0.5.2
+      '@swc/helpers': 0.5.3
       '@swc/types': 0.1.5
     optionalDependencies:
       '@swc/core-darwin-arm64': 1.3.102
@@ -4114,6 +4114,12 @@ packages:
 
   /@swc/helpers/0.5.2:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /@swc/helpers/0.5.3:
+    resolution: {integrity: sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==}
     dependencies:
       tslib: 2.6.2
 
@@ -4359,8 +4365,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: true
 
-  /@types/react/18.2.46:
-    resolution: {integrity: sha512-nNCvVBcZlvX4NU1nRRNV/mFl1nNRuTuslAJglQsq+8ldXe5Xv0Wd2f7WTE3jOxhLH2BFfiZGC6GCp+kHQbgG+w==}
+  /@types/react/18.2.47:
+    resolution: {integrity: sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -6336,8 +6342,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next/14.0.5-canary.40_7sjm5uif3lrlodkmlzqsvrpzla:
-    resolution: {integrity: sha512-9b5QOFJbsx3u8VS7TpZ8T1LkOklG1mzvREXHiZekHdN9ex8K+kA7f6J5BbEGFS/pWfAEX4nxZ6HnGEsn8XGB9A==}
+  /eslint-config-next/14.0.5-canary.42_7sjm5uif3lrlodkmlzqsvrpzla:
+    resolution: {integrity: sha512-10ycJ1/dfeLcEpU20HH46kolxOo7QT3f6FTNAwjc1qqB0zG8S3MS4ol+2+T3hpXEgMg49I0kSDSnC2dIHrM9Lg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -6345,7 +6351,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 14.0.5-canary.40
+      '@next/eslint-plugin-next': 14.0.5-canary.42
       '@rushstack/eslint-patch': 1.6.1
       '@typescript-eslint/parser': 6.17.0_7sjm5uif3lrlodkmlzqsvrpzla
       eslint: 8.56.0
@@ -10340,8 +10346,8 @@ packages:
     resolution: {integrity: sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==}
     dev: true
 
-  /tailwindcss/3.4.0:
-    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
+  /tailwindcss/3.4.1:
+    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -10782,18 +10788,6 @@ packages:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-
-  /typescript/5.0.4:
-    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
-    engines: {node: '>=12.20'}
-    hasBin: true
-    dev: true
-
-  /typescript/5.1.3:
-    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-    dev: true
 
   /typescript/5.3.3:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
